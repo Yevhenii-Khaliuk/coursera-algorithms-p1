@@ -1,0 +1,8 @@
+*.iml
+*.txt
+*.class
+*.png
+*.zip
+
+**/.idea/**
+**/.lift/**
