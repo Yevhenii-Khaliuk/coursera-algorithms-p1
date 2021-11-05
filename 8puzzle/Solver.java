@@ -55,7 +55,6 @@ public final class Solver {
         if (minOriginal.board.isGoal()) {
             solvable = true;
             fillSolution(minOriginal);
-            moves = solution.size() - 1;
             return;
         }
         else if (minTwin.board.isGoal()) {
